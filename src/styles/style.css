@@ -1,0 +1,127 @@
+body {
+    font-family: 'Open Sans';
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/bg-header.png);
+    background-position:bottom;
+    height: auto;
+    width: 100%;
+    padding-top: 3rem;
+    padding-left: 1rem;
+    padding-bottom: 3rem;
+}
+
+h1 {
+    font-family: 'Luckiest Guy';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    text-wrap: wrap;
+    color: rgba(255, 255, 255, 1);
+    width: 50%;
+}
+
+.header-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    text-wrap: wrap;
+    margin-right: 0.5rem;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 1rem;
+}
+
+button {
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    align-self: center;
+    width: 22rem;
+    height: 2rem;
+    border-radius: 28px;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+}
+
+.dowload {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(35, 39, 42, 1);
+}
+
+.open-navegador {
+    background-color: rgba(35, 39, 42, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.firt-section, .second-section, .third-section {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    padding-bottom: 1.5rem;
+}
+
+.three-sections-titles {
+    width: 90%;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.68px;
+    color: rgba(35, 39, 42, 1);
+    text-align: initial;
+}
+
+.three-sections-paragraphs {
+    width: 90%;
+    text-align: initial;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: rgba(35, 39, 42, 1);
+    margin-top: 1rem;
+    margin-left: 0.1rem;
+}
+
+.second-section {
+    background-color: rgba(246, 246, 246, 1);
+    height: 60vh;
+}
+
+#third-p{
+    margin-left: 0.1rem;
+    width: 90.5%;
+    text-align: initial;
+}
+.last-section {
+    background-color: rgba(246, 246, 246, 1);
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5rem;
+    gap: 1rem;
+}
+
+.last-title {
+    font-family: 'Luckiest Guy';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    color: rgba(35, 39, 42, 1);
+    text-align: start;
+    margin-left: 1rem;
+}
+
+.last-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.79px;
+    margin-left: 1rem;
+}
